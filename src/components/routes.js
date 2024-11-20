@@ -1,7 +1,9 @@
 import Home from '../pages/Home'
-import Contact from '../pages/Contact'
-import Services from '../pages/Services'
-import Project from '../pages/Project';
+import Software from '../pages/Software'
+import Big from '../pages/Big';
+import Game from '../pages/Game';
+import Blog from '../pages/Blog'
+import Career from '../pages/Career';
 
 const routes = [
     {
@@ -10,19 +12,29 @@ const routes = [
         component: Home
     },
     {
-        path: '/services',
-        name: 'Services',
-        component: Services
+        path: '/software',
+        name: 'Software',
+        component: Software
     },
     {
-        path: '/projects',
-        name: 'Projects',
-        component: Project
+        path: '/games',
+        name: 'Games',
+        component: Game
     },
     {
-        path: '/contact',
-        name: 'Contact Us',
-        component: Contact
+        path: '/data',
+        name: 'Big Data & AI',
+        component: Big
+    },
+    {
+        path: '/blog',
+        name: 'Blog',
+        component: Blog
+    },
+    {
+        path: '/career',
+        name: 'Careers',
+        component: Career
     },
 ]
 

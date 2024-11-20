@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Home/Header'
-import About from '../components/Home/About'
+import About from '../components/About/About'
 import Card from '../components/Cards/Card'
-import BlogCard from '../components/Cards/BlogCard'
 import AOS from 'aos'
+
 import 'aos/dist/aos.css';
-import './style.css'
+import './styles/style.css'
 
 function Home() {
 
@@ -34,7 +34,7 @@ function Home() {
             </div>
 
             <div className="cards">
-              <Card backgroundColor='white'>
+              <Card backgroundImage=''>
                 <div className="item-left"></div>
                 <div className="item-right"></div>
               </Card>
@@ -64,18 +64,7 @@ function Home() {
             <h1>Stay up to date on our latest projects</h1>
             <p>We regularly share updates about our company, the development of the Amini platform, and research to advance our mission to becoming the single source of truth for African environmental data.</p>
             <div className="blog-item">
-              <BlogCard className="back1">
-                <h5>NEWS</h5>
-                <h4>Artificial Intelligence</h4>
-              </BlogCard>
-              <BlogCard className="back2">
-                <h5>RESEARCH</h5>
-                <h4>Data Science</h4>
-              </BlogCard>
-              <BlogCard className="back3">
-                <h5>NEWS</h5>
-                <h4>Agriculture Technology</h4>
-              </BlogCard>
+
             </div>
           </div>
         </section>

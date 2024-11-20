@@ -6,7 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(/src/assets/images/background.jpg);
+    background-position: center;
+    background-size: cover;
     color: white;
 }
 
@@ -18,13 +20,4 @@
 .header-main h1 {
     font-size: 48px;
     margin-bottom: 10px;
-}
-
-span {
-    color: black;
-    text-shadow: 
-        -1px -1px 0 #ffffff,  
-         1px -1px 0 #ffffff,
-        -1px  1px 0 #ffffff,
-         1px  1px 0 #ffffff;
 }

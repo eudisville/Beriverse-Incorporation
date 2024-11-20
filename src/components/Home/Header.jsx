@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import Nav from '../Nav/Nav'
 import './Header.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
@@ -11,11 +12,12 @@ function Header() {
 
   return (
     <div>
+        <Nav />
         <header>
             <div className="header">
                 <div className="header-main" data-aos="fade-up">
-                  <h1><span>Inspire</span> and <span>Transform</span> the World.</h1>
-                  <p>We are Beriverse : The StartUp of future</p>
+                  <h1><span>Inspire and Transform</span> the World.</h1>
+                  <p>We work for enhance the world and human capacity through the technology.</p>
                 </div>
             </div>
         </header>

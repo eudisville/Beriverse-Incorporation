@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Card = ({ backgroundColor, children }) => {
+const Card = ({ backgroundImage, children }) => {
     const cardStyle = {
-            backgroundColor: backgroundColor || 'black',
+            backgroundImage: `url(${backgroundImage})`,
             color: 'white',
             padding: '20px',
             height: '450px',
