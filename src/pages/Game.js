@@ -9,8 +9,8 @@ function Game() {
         <div className='game'>
           <div className="about-game">
               <div className="text">
-                  <h1>Discover Our Services</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sed provident nam eaque, repellendus fugit ad exercitationem maiores, dolores eum quidem vero in nostrum sit alias ut unde voluptate ducimus?</p>
+                  <h1>Beriverse Games</h1>
+                  <p>At Beriverse, we combine innovation and passion to create groundbreaking solutions that enhance the world and empower individuals. Through our cutting-edge platform and groundbreaking research, we’re shaping the future of technology.</p>
               </div>
           </div>
       </div>

@@ -52,4 +52,18 @@ main {
     height: 100vh;
     flex-wrap: wrap;
     padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.careers {
+    color: white;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    main{
+        height: 100vh;
+    }
 }

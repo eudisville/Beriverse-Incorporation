@@ -2,9 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Home/Header'
 import About from '../components/About/About'
-import Card from '../components/Cards/Card'
 import AOS from 'aos'
-
 import 'aos/dist/aos.css';
 import './styles/style.css'
 
@@ -34,10 +32,22 @@ function Home() {
             </div>
 
             <div className="cards">
-              <Card backgroundImage=''>
-                <div className="item-left"></div>
-                <div className="item-right"></div>
-              </Card>
+              <div className="card">
+                <div className="top-card">
+                  <div className="top-left">
+                    <h3>Beriverse</h3>
+                  </div>
+                  <div className="top-right">
+                    <h3>2024</h3>
+                  </div>
+                </div>
+
+                <div className="bottom-card">
+                  <div className="bottom-left">
+                    <p>From global problems to activities sectors problems, we resolve many problems.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -62,7 +72,7 @@ function Home() {
         <section className='blog'>
           <div className="blog-items">
             <h1>Stay up to date on our latest projects</h1>
-            <p>We regularly share updates about our company, the development of the Amini platform, and research to advance our mission to becoming the single source of truth for African environmental data.</p>
+            <p>We regularly share updates about our company, the development of the Beriverse, and research to advance our mission of enhancing the world and human potential through innovative technology solutions.</p>
             <div className="blog-item">
 
             </div>

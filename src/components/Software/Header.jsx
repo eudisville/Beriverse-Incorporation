@@ -1,15 +1,16 @@
 import React from 'react'
 import './Header.css'
 import Nav from '../Nav/Nav';
+
 function Header() {
   return (
     <div>
       <Nav />
       <div className='software'>
           <div className="about-software">
-              <div className="text">
-                  <h1>Discover Our Services</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sed provident nam eaque, repellendus fugit ad exercitationem maiores, dolores eum quidem vero in nostrum sit alias ut unde voluptate ducimus?</p>
+              <div className="software-text">
+                  <h1>Software</h1>
+                  <p>We develop custom software solutions designed to solve complex business challenges and improve operational efficiency. From innovative applications to streamlined systems, we create technology that empowers organizations and individuals to achieve their goals.</p>
               </div>
           </div>
       </div>

@@ -21,3 +21,15 @@
     font-size: 48px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 767px) {
+    .header-main h1 {
+        font-size: 36px;
+    }
+
+    .header-main p {
+        font-size: 12px;
+        padding: 0 20px;
+        color: gainsboro;
+    }
+}

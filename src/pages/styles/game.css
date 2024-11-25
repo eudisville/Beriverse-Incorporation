@@ -41,3 +41,17 @@
     background-color: black;
     transition: .5s;
 }
+
+@media screen and (max-width: 767px) {
+    .game {
+        height: 100vh;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text p {
+        font-size: 22px;
+    }
+}
