@@ -16,14 +16,15 @@
     width: 50%;
 }
 
-.text h1{
+.software-text h1{
     font-size: 48px;
     margin-bottom: 20px;
 }
 
-.text p {
+.software-text p {
     font-size: 27px;
     margin-bottom: 25px;
+    width: 60%;
 }
 
 .text button {
@@ -55,5 +56,10 @@
     .software-text h1 {
         font-size: 48px;
         margin-bottom: 20px;
+    }
+
+    .software-text p {
+        font-size: 24px;
+        width: 100%;
     }
 }

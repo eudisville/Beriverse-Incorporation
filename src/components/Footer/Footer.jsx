@@ -15,9 +15,9 @@ function Footer() {
       </div>
       <div className="footer-right">
         <Link to="mailto:beriverse@gmail.com" target='_blank'><img src={Mail} alt="" /></Link>
-        <Link><img src={Instagram} alt="" /></Link>
+        <Link to="https://www.instagram.com/share/BAUUd8x24q" target='_blank'><img src={Instagram} alt="" /></Link>
         <Link><img src={Twitter} alt="" /></Link>
-        <Link><img src={Linkedin} alt="" /></Link>
+        <Link to="https://www.linkedin.com/company/beriverse/" target='_blank'><img src={Linkedin} alt="" /></Link>
         <Link><img src={Facebook} alt="" /></Link>
       </div>
     </div>
