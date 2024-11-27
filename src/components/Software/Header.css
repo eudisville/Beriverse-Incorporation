@@ -44,7 +44,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .software {
+    .software { 
         height: 100vh;
         width: 100%;
     }
