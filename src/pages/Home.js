@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import './styles/style.css'
 import BlogCd from '../components/Blog/BlogCd'
 
+
 function Home() {
 
   useEffect(() => {
