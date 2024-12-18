@@ -161,6 +161,14 @@ button:hover {
     color: gainsboro;
 }
 
+.acts {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
 @media screen and (max-width: 767px) {
     .section-text {
         flex-direction: column;
@@ -195,6 +203,11 @@ button:hover {
         height: 400px;
         width: 100%;
         margin: 10px 30px;
+    }
+
+    .teams {
+        height: auto;
+        padding: 40px 30px;
     }
 
     .team-text h5{
@@ -252,5 +265,10 @@ button:hover {
 
     .join-us button {
         font-size: 16px;
+    }
+
+    .acts {
+        flex-direction: column;
+        margin-top: 30px;
     }
 }

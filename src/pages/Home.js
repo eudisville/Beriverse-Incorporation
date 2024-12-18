@@ -3,12 +3,20 @@ import { Link } from 'react-router-dom'
 import Header from '../components/Home/Header'
 import About from '../components/About/About'
 import AOS from 'aos'
-import 'aos/dist/aos.css';
-import './styles/style.css'
 import BlogCd from '../components/Blog/BlogCd'
+import Activity from '../components/Activity/Activity'
+import 'aos/dist/aos.css'
+import './styles/style.css'
 
 
 function Home() {
+
+  const ActivityData = [
+    { title: "Software", content: "We create innovative software solutions that drive business efficiency and digital transformation." },
+    { title: "Games", content: "We develop immersive and engaging games that provide unforgettable experiences." },
+    { title: "Big Data & AI", content: "Our Big Data and AI solutions help businesses make data-driven decisions and unlock new opportunities" },
+    { title: "Learning", content: "We offer learning solutions to help individuals and organizations stay ahead in tech and AI." },
+  ];
 
   useEffect(() => {
     AOS.init({ duration: 1000 })
@@ -57,8 +65,13 @@ function Home() {
         <section className="teams">
           <div className="team">
             <div className="team-text">
-              {/* <h5>WHAT WE DO</h5> */}
-              <h1>Let Us Embark With Us</h1>
+              <h5>WHAT WE DO</h5>
+              <h1>Let Us Embark You With Us</h1>
+            </div>
+            <div className='acts'>
+              {ActivityData.map((card, index) => (
+              <Activity key={index} title={card.title} content={card.content} />
+              ))}
             </div>
           </div>
         </section>
@@ -66,10 +79,11 @@ function Home() {
         <section className='join-us'>
           <div className="join" data-aos="fade-up">
             <h1>Join Us Now</h1>
-            <p>At Beriverse Incorporation, we are on a mission to inspire and transform the world through cutting-edge technology, innovative software, and immersive games. We are a team of passionate creators, developers, and visionaries who believe in shaping the future with creativity and dedication.
-              When you join Beriverse, you’re not just joining a company—you’re becoming part of a family that values innovation, collaboration, and excellence. We thrive on challenges, celebrate diverse ideas, and foster an environment where every voice is heard.
-              Are you ready to make an impact and take your career to the next level? Join us in building solutions that matter and be part of a journey that redefines possibilities.
-              Let’s inspire and transform the world—together.</p>
+            <p>At Beriverse Incorporation, we aim to inspire and transform the 
+            world with innovative technology, software, and games. As a team of
+            passionate creators, we thrive on challenges, value collaboration, 
+            and foster an environment where every voice matters. Join us to make
+            an impact and shape the future together.</p>
             <Link to="/career"><button>Apply Now</button></Link>
           </div>
         </section>
