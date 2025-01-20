@@ -46,6 +46,20 @@
 }
 
 main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: black;
+}
+
+.careers {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.blog {
     background-color: black;
     gap: 25px;
     display: flex;
@@ -53,7 +67,7 @@ main {
     flex-wrap: wrap;
     padding: 0 35px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
 }
 

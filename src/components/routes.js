@@ -1,5 +1,6 @@
 import Home from '../pages/Home'
-import Big from '../pages/Big';
+import Academy from '../pages/Academy';
+import Enterprise from "../pages/Enterprise"
 import Blog from '../pages/Blog'
 import Career from '../pages/Career';
 
@@ -12,22 +13,22 @@ const routes = [
     {
         path: '/public',
         name: 'Public',
-        component: Big
+        component: Academy
     },
     {
         path: '/enterprise',
         name: 'Enterprise',
-        component: Big
+        component: Enterprise
     },
     {
         path: '/teams',
         name: 'Our Team',
-        component: Big
+        component: Academy
     },
     {
         path: '/academy',
         name: 'Beriverse Academy',
-        component: Big
+        component: Academy
     },
     {
         path: '/blog',
@@ -37,11 +38,6 @@ const routes = [
     {
         path: '/career',
         name: 'Careers',
-        component: Career
-    },
-    {
-        path: '/contacts',
-        name: 'Contact Us',
         component: Career
     },
 ]
