@@ -14,7 +14,7 @@ function Nav() {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src={Logo} alt="Logo" />
+        <Link to="/"><img src={Logo} alt="Logo" /></Link>
       </div>
       {/* Icône du menu hamburger */}
       <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>

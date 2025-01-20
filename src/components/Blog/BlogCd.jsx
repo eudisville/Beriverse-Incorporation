@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from 'aos'
 import './BlogCd.css'
 
-function BlogCd() {
+function BlogCd({ date, title, image }) {
 
   useEffect(() => {
     AOS.init({ duration: 3000 })
@@ -10,9 +10,13 @@ function BlogCd() {
 
   return (
     <div className='blog-card' data-aos="fade-up">
-        <h5 className="date">November 1, 2024</h5>
-        <h2 className="title">Beriverse project to be futur engine of AI</h2>
-        <div className="container"><img src="cd.jpg" alt="" /></div>
+      <div className="blog-card-items">
+        <h5 className="date">{date}</h5>
+          <h2 className="title">{title}</h2>
+          <div className="container">
+            <img src={image} alt="" />
+          </div>
+      </div>
     </div>
   )
 }

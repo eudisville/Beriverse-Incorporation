@@ -1,7 +1,5 @@
 import Home from '../pages/Home'
-import Software from '../pages/Software'
 import Big from '../pages/Big';
-import Game from '../pages/Game';
 import Blog from '../pages/Blog'
 import Career from '../pages/Career';
 
@@ -12,18 +10,23 @@ const routes = [
         component: Home
     },
     {
-        path: '/software',
-        name: 'Software',
-        component: Software
+        path: '/public',
+        name: 'Public',
+        component: Big
     },
     {
-        path: '/games',
-        name: 'Games',
-        component: Game
+        path: '/enterprise',
+        name: 'Enterprise',
+        component: Big
     },
     {
-        path: '/data',
-        name: 'Big Data & AI',
+        path: '/teams',
+        name: 'Our Team',
+        component: Big
+    },
+    {
+        path: '/academy',
+        name: 'Beriverse Academy',
         component: Big
     },
     {
@@ -34,6 +37,11 @@ const routes = [
     {
         path: '/career',
         name: 'Careers',
+        component: Career
+    },
+    {
+        path: '/contacts',
+        name: 'Contact Us',
         component: Career
     },
 ]

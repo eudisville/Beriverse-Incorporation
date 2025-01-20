@@ -1,35 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .header {
     height: 90vh;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(/src/assets/images/background.jpg);
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), url(/src/assets/images/header-img.jpg);
     background-position: center;
     background-size: cover;
     color: white;
 }
 
+.header-main p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .header-main {
-    text-align: center;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .header-main h1 {
-    font-size: 48px;
+    font-size: 60px;
+    text-align: center;
     margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.pub {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+span img {
+    width: 25px;
 }
 
 @media screen and (max-width: 767px) {
+    .header-main {
+        padding: 30px;
+    }
+
     .header-main h1 {
         font-size: 36px;
     }
 
     .header-main p {
-        font-size: 12px;
-        padding: 0 20px;
-        color: gainsboro;
+        font-size: 16px;
+        width: 100%;
+        color: rgb(240, 240, 240);
     }
 }

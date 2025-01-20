@@ -20,6 +20,7 @@
 .about-text p {
     font-size: 27px;
     width: 45%;
+    color: gainsboro;
 }
 
 @media screen and (max-width: 767px) {

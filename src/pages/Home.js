@@ -11,13 +11,6 @@ import './styles/style.css'
 
 function Home() {
 
-  const ActivityData = [
-    { title: "Software", content: "We create innovative software solutions that drive business efficiency and digital transformation." },
-    { title: "Games", content: "We develop immersive and engaging games that provide unforgettable experiences." },
-    { title: "Big Data & AI", content: "Our Big Data and AI solutions help businesses make data-driven decisions and unlock new opportunities" },
-    { title: "Learning", content: "We offer learning solutions to help individuals and organizations stay ahead in tech and AI." },
-  ];
-
   useEffect(() => {
     AOS.init({ duration: 1000 })
   }, [])
@@ -48,7 +41,7 @@ function Home() {
                     <h3>Beriverse</h3>
                   </div>
                   <div className="top-right">
-                    <h3>2024</h3>
+                    <h3>2025</h3>
                   </div>
                 </div>
 
@@ -69,9 +62,10 @@ function Home() {
               <h1>Let Us Embark You With Us</h1>
             </div>
             <div className='acts'>
-              {ActivityData.map((card, index) => (
-              <Activity key={index} title={card.title} content={card.content} />
-              ))}
+              <Activity backgroundImage="act3.jpg" title="Software" content="" />
+              <Activity backgroundImage="act1.jpg" title="Big Data & Artificial Intelligence" content="" />
+              <Activity backgroundImage="act2.jpg" title="Cloud" content="" />
+              <Activity backgroundImage="act4.jpg" title="Learning" content="" />
             </div>
           </div>
         </section>
@@ -93,7 +87,9 @@ function Home() {
             <h1>Stay up to date on our latest projects</h1>
             <p>We regularly share updates about our company, the development of the Beriverse, and research to advance our mission of enhancing the world and human potential through innovative technology solutions.</p>
             <div className="blog-item">
-              <BlogCd />
+              <BlogCd date="Febuary 1, 2025" title="Beriverse Introduce FLYSH, his first product" image="ai.jpg" />
+              <BlogCd date="Febuary 25, 2025" title="Beriverse Academy is open" image="BA.jpg" />
+              <BlogCd date="March 1, 2025" title="Discover our dream team" image="team.jpg" />
             </div>
           </div>
         </section>
