@@ -47,7 +47,7 @@ function Home() {
 
                 <div className="bottom-card">
                   <div className="bottom-left">
-                    <p>From global problems to activities sectors problems, we resolve many problems.</p>
+                  
                   </div>
                 </div>
               </div>
@@ -82,7 +82,7 @@ function Home() {
           </div>
         </section>
 
-        <section className='blog'>
+        <section className='blog-home'>
           <div className="blog-items">
             <h1>Stay up to date on our latest projects</h1>
             <p>We regularly share updates about our company, the development of the Beriverse, and research to advance our mission of enhancing the world and human potential through innovative technology solutions.</p>

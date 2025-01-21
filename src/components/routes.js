@@ -1,6 +1,8 @@
 import Home from '../pages/Home'
-import Academy from '../pages/Academy';
+import Public from "../pages/Public"
 import Enterprise from "../pages/Enterprise"
+import Academy from '../pages/Academy';
+import Team from '../pages/Team';
 import Blog from '../pages/Blog'
 import Career from '../pages/Career';
 
@@ -13,7 +15,7 @@ const routes = [
     {
         path: '/public',
         name: 'Public',
-        component: Academy
+        component: Public
     },
     {
         path: '/enterprise',
@@ -21,14 +23,14 @@ const routes = [
         component: Enterprise
     },
     {
-        path: '/teams',
-        name: 'Our Team',
-        component: Academy
-    },
-    {
         path: '/academy',
         name: 'Beriverse Academy',
         component: Academy
+    },
+    {
+        path: '/teams',
+        name: 'Our Team',
+        component: Team
     },
     {
         path: '/blog',
