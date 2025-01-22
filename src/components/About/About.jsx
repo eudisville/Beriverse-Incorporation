@@ -23,9 +23,9 @@ function About() {
             <div className="about-text" data-aos= "fade-right">
                 <h1 onMouseEnter={textEnter} onMouseLeave={textLeave}>About Us</h1>
                 <p>Beriverse Incorporation is a technological company which grow
-                  in Software Development, Artificial Intelligence and Games. 
+                  in Software Development, Artificial Intelligence, Cloud Computing and Learning. 
                   Our mission is Inspire and Transform the World. This mission means
-                  we are open to enhance human and the world capacity through innovative technologie.
+                  we are open to enhance human and the world capacity through innovative technologies.
                 </p>
             </div>
         </div>
