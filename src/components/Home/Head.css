@@ -1,4 +1,4 @@
-header {
+.header {
     height: 70vh;
     width: 100%;
     display: flex;
@@ -23,7 +23,7 @@ header {
 }
 
 @media screen and (max-width: 767px) {
-    header {
+    .header {
         height: 100vh;
     }
 
