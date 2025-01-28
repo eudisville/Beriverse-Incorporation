@@ -1,0 +1,41 @@
+header {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-props {
+    color: white;
+    width: 45%;
+}
+
+.header-props h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.header-props p {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        height: 100vh;
+    }
+
+    .header-props {
+        width: 100%;
+    }
+
+    .header-props h1 {
+        font-size: 42px;
+    }
+
+    .header-props p {
+        font-size: 18px;
+    }
+}
