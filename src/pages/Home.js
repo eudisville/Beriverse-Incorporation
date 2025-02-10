@@ -57,11 +57,11 @@ function Home() {
 
         <section className="teams">
           <div className="team">
-            <div className="team-text">
+            <div className="team-text" data-aos="zoom-in">
               <h5>WHAT WE DO</h5>
               <h1>Let Us Embark You With Us</h1>
             </div>
-            <div className='acts'>
+            <div className='acts' data-aos="fade-up">
               <Activity backgroundImage="act3.jpg" title="Software" content="" />
               <Activity backgroundImage="act1.jpg" title="Big Data & Artificial Intelligence" content="" />
               <Activity backgroundImage="act2.jpg" title="Cloud" content="" />
@@ -84,8 +84,8 @@ function Home() {
 
         <section className='blog-home'>
           <div className="blog-items">
-            <h1>Stay up to date on our latest projects</h1>
-            <p>We regularly share updates about our company, the development of the Beriverse, and research to advance our mission of enhancing the world and human potential through innovative technology solutions.</p>
+            <h1 data-aos="zoom-in">Stay up to date on our latest projects</h1>
+            <p data-aos="zoom-in">We regularly share updates about our company, the development of the Beriverse, and research to advance our mission of enhancing the world and human potential through innovative technology solutions.</p>
             <div className="blog-item">
               <BlogCd date="Febuary 1, 2025" title="Beriverse Introduce FLYSH, his first product" image="ai.jpg" />
               <BlogCd date="Febuary 25, 2025" title="Beriverse Academy is open" image="BA.jpg" />

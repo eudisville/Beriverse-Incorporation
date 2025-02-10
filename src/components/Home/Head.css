@@ -1,9 +1,10 @@
-.header {
-    height: 70vh;
+.head {
+    height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 20px;
+    justify-content: start;
+    padding: 40px;
     background-size: cover;
     background-position: center;
 }

@@ -19,7 +19,7 @@ function Header() {
                             Inspire and Transform the World
                         </h1>
                         <p>
-                        leverages advanced technologies to deliver innovative and meaningful solutions to society's challenges
+                        Increasing human capabilities with technology to make life easier.
                         </p>
                     </div>
                 </div>
