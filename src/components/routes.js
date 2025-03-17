@@ -1,10 +1,10 @@
 import Home from '../pages/Home'
 import Public from "../pages/Public"
-import Enterprise from "../pages/Enterprise"
 import Academy from '../pages/Academy';
 import Team from '../pages/Team';
 import Blog from '../pages/Blog'
 import Career from '../pages/Career';
+import Business from '../pages/Business';
 
 const routes = [
     {
@@ -19,8 +19,8 @@ const routes = [
     },
     {
         path: '/enterprise',
-        name: 'Enterprise',
-        component: Enterprise
+        name: 'Beriverse Consulting',
+        component: Business
     },
     {
         path: '/academy',

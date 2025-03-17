@@ -10,7 +10,7 @@ function Head({ title, description, background }) {
 
   return (
     <div className='head'
-        style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${background})` }}
+        style={{ backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0)), url(${background})` }}
     >
         <div className="header-props" data-aos= "fade-up">
             <h1>{title}</h1>

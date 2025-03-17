@@ -45,7 +45,13 @@ function NavAlpha() {
             <Link to="/help">How We Help Our Clients</Link>
           </li>
           <li>
+            <Link to="/help">Portfolio</Link>
+          </li>
+          <li>
             <Link to="/people">Our People</Link>
+          </li>
+          <li>
+            <Link to="/people">Contact Us</Link>
           </li>
         </ul>
       </div>
