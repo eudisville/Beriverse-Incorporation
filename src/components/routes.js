@@ -13,19 +13,19 @@ const routes = [
         component: Home
     },
     {
-        path: '/public',
-        name: 'Public',
+        path: '/tech',
+        name: 'Beriverse Technologies',
         component: Public
-    },
-    {
-        path: '/enterprise',
-        name: 'Beriverse Consulting',
-        component: Business
     },
     {
         path: '/academy',
         name: 'Beriverse Academy',
         component: Academy
+    },
+    {
+        path: '/studio',
+        name: 'Beriverse Studio',
+        component: Business
     },
     {
         path: '/teams',

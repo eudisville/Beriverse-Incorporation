@@ -24,12 +24,14 @@ function Home() {
             <div className="section-text">
               <div className="left">
                 <h5>Beriverse Incorporation</h5>
-                <h1>Beriverse solving major problems of our world</h1>
+                <h1>Bringing great experiences to a large number of people.</h1>
               </div>
 
               <div className="right">
-                <p>From global problems to activities sectors problems,
-                  we resolve many problems. 
+                <p>
+                Beriverse addresses critical global challenges by providing
+                innovative solutions across various sectors, from global issues
+                to industry-specific problems. 
                 </p>
               </div>
             </div>
@@ -62,10 +64,10 @@ function Home() {
               <h1>Let Us Embark You With Us</h1>
             </div>
             <div className='acts' data-aos="fade-up">
-              <Activity backgroundImage="act3.jpg" title="Software" content="" />
-              <Activity backgroundImage="act1.jpg" title="Big Data & Artificial Intelligence" content="" />
-              <Activity backgroundImage="act2.jpg" title="Cloud" content="" />
-              <Activity backgroundImage="act4.jpg" title="Learning" content="" />
+              <Activity backgroundImage="act3.jpg" title="Technology" content="" />
+              <Activity backgroundImage="act.jpg" title="Audiovisual" content="" />
+              <Activity backgroundImage="act2.jpg" title="Entertainement" content="" />
+              <Activity backgroundImage="act4.jpg" title="Education" content="" />
             </div>
           </div>
         </section>
@@ -73,11 +75,10 @@ function Home() {
         <section className='join-us'>
           <div className="join" data-aos="fade-up">
             <h1>Join Us Now</h1>
-            <p>At Beriverse Incorporation, we aim to inspire and transform the 
-            world with innovative technology, software, and games. As a team of
-            passionate creators, we thrive on challenges, value collaboration, 
-            and foster an environment where every voice matters. Join us to make
-            an impact and shape the future together.</p>
+            <p>At Beriverse, we’re building more than just products. We’re creating experiences that matter.
+              Whether you're a visionary, a builder, a storyteller, or a changemaker, there's a place for you here.
+              Join us and help shape the future of tech, education, and entertainment from Africa to the world.
+              Let’s create something extraordinary together.</p>
             <Link to="/career"><button>Apply Now</button></Link>
           </div>
         </section>
@@ -85,7 +86,7 @@ function Home() {
         <section className='blog-home'>
           <div className="blog-items">
             <h1 data-aos="zoom-in">Stay up to date on our latest projects</h1>
-            <p data-aos="zoom-in">We regularly share updates about our company, the development of the Beriverse, and research to advance our mission of enhancing the world and human potential through innovative technology solutions.</p>
+            <p data-aos="zoom-in">We share regular updates on Beriverse’s growth across technology, education, audiovisual, and cinema. All aligned with our mission to deliver impactful experiences through innovation and creativity.</p>
             <div className="blog-item">
               <BlogCd date="Febuary 1, 2025" title="Beriverse Introduce FLYSH, his first product" image="ai.jpg" />
               <BlogCd date="Febuary 25, 2025" title="Beriverse Academy is open" image="BA.jpg" />

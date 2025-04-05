@@ -19,7 +19,7 @@ function Header() {
                             Inspire and Transform the World
                         </h1>
                         <p>
-                            Increasing human capabilities with technology to make life easier.
+                        Bringing great experiences to a large number of people.
                         </p>
                     </div>
                 </div>
