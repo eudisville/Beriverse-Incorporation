@@ -13,8 +13,8 @@ const routes = [
         component: Home
     },
     {
-        path: '/tech',
-        name: 'Beriverse Technologies',
+        path: '/lab',
+        name: 'Beriverse Lab',
         component: Public
     },
     {
@@ -23,8 +23,8 @@ const routes = [
         component: Academy
     },
     {
-        path: '/studio',
-        name: 'Beriverse Studio',
+        path: '/consulting',
+        name: 'Beriverse Consulting',
         component: Business
     },
     {

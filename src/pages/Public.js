@@ -21,7 +21,7 @@ function Game() {
         <div className='game'>
           <div className="about-game">
               <div className="text" data-aos="fade-up">
-                  <h1 onMouseEnter={textEnter} onMouseLeave={textLeave}>Beriverse Technologies</h1>
+                  <h1 onMouseEnter={textEnter} onMouseLeave={textLeave}>Beriverse Lab</h1>
                   <p>At Beriverse, we combine innovation and passion to create groundbreaking solutions that enhance the world and empower individuals. Through our cutting-edge platform and groundbreaking research, we’re shaping the future of technology.</p>
               </div>
           </div>
