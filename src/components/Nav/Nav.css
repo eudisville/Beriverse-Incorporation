@@ -9,7 +9,7 @@
 
 /* Conteneur principal */
 .navbar {
-  height: 12vh;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -18,12 +18,12 @@
   background-color: #000;
   color: gainsboro;
   position: relative;
-  z-index: 1000;
+  z-index: 1000;  
 }
 
 /* Logo */
 .logo img {
-  width: 110px;
+  width: 90px;
   height: auto;
 }
 

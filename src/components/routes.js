@@ -14,17 +14,17 @@ const routes = [
     },
     {
         path: '/lab',
-        name: 'Beriverse Lab',
+        name: 'Lab',
         component: Public
     },
     {
         path: '/academy',
-        name: 'Beriverse Academy',
+        name: 'Academy',
         component: Academy
     },
     {
         path: '/consulting',
-        name: 'Beriverse Consulting',
+        name: 'Consulting',
         component: Business
     },
     {

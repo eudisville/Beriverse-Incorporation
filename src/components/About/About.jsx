@@ -24,7 +24,7 @@ function About() {
                 <h1 onMouseEnter={textEnter} onMouseLeave={textLeave}>About Us</h1>
                 <p>
                   Beriverse Incorporation is a company which grow
-                  in Technology, Education, Audiovisual & Entertainement. 
+                  in Technology, Education & Consulting. 
                   Our mission is Inspire and Transform the World. This mission 
                   delivering great experiences to as many people as possible, 
                   by combining technology, creativity, and education to make a 

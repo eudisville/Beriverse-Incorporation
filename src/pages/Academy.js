@@ -17,7 +17,7 @@ function Big() {
             <div className="text" data-aos="fade-up">
                 <h1>Welcome at Beriverse Academy</h1>
                 <p>Beriverse Academy mission is help most people to improve their skills in technology and high value on the market</p>
-                <Link to='https://beriverse-academy.vercel.app/'><button>Visit BA</button></Link>
+                <Link to='https://beriverse-academy.vercel.app/' target='_blank'><button>Visit BA</button></Link>
             </div>
         </div>
       </div>

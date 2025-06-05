@@ -65,8 +65,7 @@ function Home() {
             </div>
             <div className='acts' data-aos="fade-up">
               <Activity backgroundImage="act3.jpg" title="Technology" content="" />
-              <Activity backgroundImage="act.jpg" title="Audiovisual" content="" />
-              <Activity backgroundImage="act2.jpg" title="Entertainement" content="" />
+              <Activity backgroundImage="act.jpg" title="Consulting" content="" />
               <Activity backgroundImage="act4.jpg" title="Education" content="" />
             </div>
           </div>

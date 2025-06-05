@@ -15,11 +15,9 @@ function Header() {
             <header>
                 <div className="header">
                     <div className="header-main" data-aos="fade-up">
-                        <h1>
-                            Inspire and Transform the World
-                        </h1>
+                        <h1>Inspire and Transform the World</h1>
                         <p>
-                        Bringing great experiences to a large number of people.
+                        Make life easier with technology.
                         </p>
                     </div>
                 </div>

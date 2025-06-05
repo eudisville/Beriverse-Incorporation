@@ -42,7 +42,7 @@ function NavAlpha() {
             )}
           </li>
           <li>
-            <Link to="/help">How We Help Our Clients</Link>
+            <Link to="/solution">Solution</Link>
           </li>
           <li>
             <Link to="/help">Portfolio</Link>
