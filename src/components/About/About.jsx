@@ -31,6 +31,9 @@ function About() {
                   lasting impact on lives.
                 </p>
             </div>
+            <div className="about-image">
+              
+            </div>
         </div>
     </div>
   )

@@ -16,7 +16,7 @@ function Career() {
           <p className='careers'>
             We currently don't have any open positions, but we are always on the lookout for passionate and talented individuals who believe they can make a difference.
           </p>
-          <button>Send us an email</button>
+          <button>Send us an Email</button>
         </div>
       </main>
     </div>

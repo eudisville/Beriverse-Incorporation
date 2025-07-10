@@ -11,11 +11,11 @@ function BlogCd({ date, title, image }) {
   return (
     <div className='blog-card' data-aos="fade-up">
       <div className="blog-card-items">
-        <h5 className="date">{date}</h5>
-          <h2 className="title">{title}</h2>
           <div className="container">
             <img src={image} alt="" />
           </div>
+          <h5 className="date">{date}</h5>
+          <h2 className="title">{title}</h2>
       </div>
     </div>
   )

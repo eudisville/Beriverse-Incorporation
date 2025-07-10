@@ -5,11 +5,21 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background: black;
+    background: white;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 40px;
+}
+
+.about-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    width: 50%;
 }
 
 .about-text h1 {
@@ -19,11 +29,32 @@
 
 .about-text p {
     font-size: 27px;
-    width: 45%;
-    color: gainsboro;
+    width: 100%;
+    color: rgb(45, 45, 45);
+}
+
+.about-image {
+    background-image: url(/public/loc.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 550px;
 }
 
 @media screen and (max-width: 767px) {
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .about-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .about-text {
         width: 100%;
     }
@@ -32,9 +63,14 @@
         font-size: 42px;
     }
 
+    .about-image {
+        width: 420px;
+        margin-top: 40px;
+    }
+
     .about-text p {
-        font-size: 22px;
-        width: 100%;
-        color: gainsboro;
+        font-size: 18px;
+        /* width: 100%; */
+        color: rgb(0, 0, 0);
     }
 }

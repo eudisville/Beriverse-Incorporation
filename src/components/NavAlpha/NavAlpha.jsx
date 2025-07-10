@@ -45,7 +45,7 @@ function NavAlpha() {
             <Link to="/solution">Solution</Link>
           </li>
           <li>
-            <Link to="/help">Portfolio</Link>
+            <Link to="/help">Expertise</Link>
           </li>
           <li>
             <Link to="/people">Our People</Link>

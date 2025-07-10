@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Twitter from './assets/twitter.png'
 import Facebook from './assets/facebook.png'
 import Linkedin from './assets/linkedin.png'
-import Mail from './assets/gmail.png'
+import Mail from './assets/e-mail.png'
 import Instagram from './assets/instagram.png'
 import './Footer.css'
 

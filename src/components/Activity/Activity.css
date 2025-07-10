@@ -26,7 +26,7 @@
   position: relative;
   z-index: 2;
   padding: 20px;
-  color: black;
+  color: white;
   box-shadow: none; /* Supprime toute ombre interne du contenu */
 }
 
@@ -47,4 +47,10 @@
 
 .activity:hover .activity-content p {
   opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .activity{
+    width: 350px;
+  }
 }

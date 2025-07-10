@@ -23,7 +23,7 @@ function Home() {
           <div className="section-items" data-aos= "fade-up">
             <div className="section-text">
               <div className="left">
-                <h5>Beriverse Incorporation</h5>
+                <h6>Beriverse Incorporation</h6>
                 <h1>Bringing great experiences to a large number of people.</h1>
               </div>
 
@@ -40,10 +40,10 @@ function Home() {
               <div className="card">
                 <div className="top-card">
                   <div className="top-left">
-                    <h3>Beriverse</h3>
+                    {/* <h3>Beriverse</h3> */}
                   </div>
                   <div className="top-right">
-                    <h3>2025</h3>
+                    {/* <h3>2025</h3> */}
                   </div>
                 </div>
 
@@ -65,7 +65,7 @@ function Home() {
             </div>
             <div className='acts' data-aos="fade-up">
               <Activity backgroundImage="act3.jpg" title="Technology" content="" />
-              <Activity backgroundImage="act.jpg" title="Consulting" content="" />
+              <Activity backgroundImage="cons.jpg" title="Consulting" content="" />
               <Activity backgroundImage="act4.jpg" title="Education" content="" />
             </div>
           </div>
@@ -85,7 +85,7 @@ function Home() {
         <section className='blog-home'>
           <div className="blog-items">
             <h1 data-aos="zoom-in">Stay up to date on our latest projects</h1>
-            <p data-aos="zoom-in">We share regular updates on Beriverse’s growth across technology, education, audiovisual, and cinema. All aligned with our mission to deliver impactful experiences through innovation and creativity.</p>
+            <p data-aos="zoom-in">We share regular updates on Beriverse’s growth across technology, education and audiovisual.</p>
             <div className="blog-item">
               <BlogCd date="Febuary 1, 2025" title="Beriverse Introduce FLYSH, his first product" image="ai.jpg" />
               <BlogCd date="Febuary 25, 2025" title="Beriverse Academy is open" image="BA.jpg" />

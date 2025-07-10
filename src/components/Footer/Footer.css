@@ -6,29 +6,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: black;
-    color: white;
+    background: rgb(229, 229, 229);
+    color: rgb(0, 0, 0);
     padding: 0 40px;
 }
 
 .footer-left h4 {
     font-weight: normal;
-    color: gainsboro;
+    color: rgb(0, 0, 0);
 }
 
 .footer-right {
     display: flex;
-    gap: 30px;
+    gap: 10px;
 }
 
 .footer-right img {
-    width: 22px;
+    width: 36px;
 }
 
 @media screen and (max-width: 767px) {
     .footer {
         flex-direction: column;
         display: flex;
+        align-items: center;
         height: 15vh;
         padding: 20px 0;
     }
@@ -38,7 +39,7 @@
     }
 
     .footer-right img {
-        width: 16px;
+        width: 22px;
         margin-bottom: 20px;
     }
 }
