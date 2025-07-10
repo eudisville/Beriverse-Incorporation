@@ -23,16 +23,15 @@ function About() {
             <div className="about-text" data-aos= "fade-right">
                 <h1 onMouseEnter={textEnter} onMouseLeave={textLeave}>About Us</h1>
                 <p>
-                  Beriverse Incorporation is a company which grow
-                  in Technology, Education & Consulting. 
-                  Our mission is Inspire and Transform the World. This mission 
-                  delivering great experiences to as many people as possible, 
-                  by combining technology, creativity, and education to make a 
-                  lasting impact on lives.
+                Beriverse is a multidisciplinary tech company with a mission
+                to empower individuals and businesses to expand their 
+                capabilities through technology. Through technology development,
+                education, and creativity, we are building an ecosystem 
+                that connects talent, ideas, and tools to drive real impact.
                 </p>
             </div>
             <div className="about-image">
-              
+
             </div>
         </div>
     </div>
