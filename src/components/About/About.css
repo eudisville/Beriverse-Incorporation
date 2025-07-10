@@ -65,6 +65,7 @@
 
     .about-image {
         width: 320px;
+        height: 400px;
         margin-top: 40px;
     }
 
@@ -75,7 +76,7 @@
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (min-width: 1100px) {
     .about {
         width: 100%;
         height: auto;
